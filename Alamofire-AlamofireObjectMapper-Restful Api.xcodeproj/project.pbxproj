@@ -39,7 +39,6 @@
 		28D8A5F820C6E9F50019BE47 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D8A5F720C6E9F50019BE47 /* API.swift */; };
 		28D8A5FC20C6EAEE0019BE47 /* UserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D8A5FB20C6EAEE0019BE47 /* UserRequest.swift */; };
 		28D8A5FE20C6EB8C0019BE47 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D8A5FD20C6EB8C0019BE47 /* UserResponse.swift */; };
-		28D8A60020C6ED410019BE47 /* JSONStringArrayEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D8A5FF20C6ED410019BE47 /* JSONStringArrayEncoding.swift */; };
 		28D8A60220C6EFE40019BE47 /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D8A60120C6EFE40019BE47 /* UserPresenter.swift */; };
 		28D8A60420C6F3670019BE47 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D8A60320C6F3670019BE47 /* SignInViewController.swift */; };
 		28D8A60620C6F3770019BE47 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D8A60520C6F3770019BE47 /* SignUpViewController.swift */; };
@@ -79,7 +78,6 @@
 		28D8A5F720C6E9F50019BE47 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		28D8A5FB20C6EAEE0019BE47 /* UserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRequest.swift; sourceTree = "<group>"; };
 		28D8A5FD20C6EB8C0019BE47 /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
-		28D8A5FF20C6ED410019BE47 /* JSONStringArrayEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONStringArrayEncoding.swift; sourceTree = "<group>"; };
 		28D8A60120C6EFE40019BE47 /* UserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresenter.swift; sourceTree = "<group>"; };
 		28D8A60320C6F3670019BE47 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		28D8A60520C6F3770019BE47 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -183,7 +181,6 @@
 				28D8A5F920C6EACE0019BE47 /* request */,
 				28D8A5EF20C6E4C80019BE47 /* Navigator.swift */,
 				28D8A5F720C6E9F50019BE47 /* API.swift */,
-				28D8A5FF20C6ED410019BE47 /* JSONStringArrayEncoding.swift */,
 				289CED1720C7D50C00C19E0C /* ShareReferences.swift */,
 			);
 			path = common;
@@ -384,7 +381,6 @@
 				28D8A5F420C6E9070019BE47 /* UserView.swift in Sources */,
 				280AC11A20C54A8C0044E88E /* AppDelegate.swift in Sources */,
 				28D8A5FC20C6EAEE0019BE47 /* UserRequest.swift in Sources */,
-				28D8A60020C6ED410019BE47 /* JSONStringArrayEncoding.swift in Sources */,
 				28D8A5F020C6E4C80019BE47 /* Navigator.swift in Sources */,
 				28D8A5F620C6E9C60019BE47 /* UserAPI.swift in Sources */,
 				28D8A60420C6F3670019BE47 /* SignInViewController.swift in Sources */,
@@ -540,7 +536,10 @@
 				DEVELOPMENT_TEAM = AQHNXZHZ8T;
 				INFOPLIST_FILE = "Alamofire-AlamofireObjectMapper-Restful Api/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.tpcreative.Alamofire-AlamofireObjectMapper-Restful-Api";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -557,7 +556,10 @@
 				DEVELOPMENT_TEAM = AQHNXZHZ8T;
 				INFOPLIST_FILE = "Alamofire-AlamofireObjectMapper-Restful Api/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.tpcreative.Alamofire-AlamofireObjectMapper-Restful-Api";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

@@ -42,6 +42,9 @@
 		<string>Biko_Bold.otfBiko_Bold.otf</string>
 		<string>Biko_Regular.otf</string>
 	</array>
+    
+    
+    
 	<key>CFBundleDisplayName</key>
 	<string></string>
 	<key>LSApplicationCategoryType</key>
